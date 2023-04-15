@@ -1,0 +1,14 @@
+package tp_1;
+
+public class splits {
+	public static void main (String[] args){
+	String frase = "Nicolas;Leandro;Kevin;Fede;Romina;Agustina;Flor;Emiliano;Ricardo;Alejandro;";
+	
+	String fraseSplits[] = frase.split(";");
+	
+	for(String elemento : fraseSplits) { 
+		System.out.println(elemento);
+	}
+
+}
+}
