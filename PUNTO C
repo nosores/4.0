@@ -1,0 +1,23 @@
+package tp_1;
+
+public class arraystringpuntoc{
+
+	public static void main(String[] args) {
+	
+		int []vectorA = {80,56,2};
+		int x=45, suma = 0;
+						
+		System.out.println("Los numeros del primer vector son: ");
+		for (int i=0; i<= vectorA.length - 1; i++) {
+			if (x < vectorA[i]) {
+				suma = suma +vectorA[i];				
+			}
+			
+		}
+		System.out.print("LA suma es: "+suma);
+		
+		//ordenar - buscar lel mayor y agregar e
+		for (int i=0; i<= vectorA.length - 1; i++) {
+		}
+		}
+}
